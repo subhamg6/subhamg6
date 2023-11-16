@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subham - Development Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 38);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(17, 17, 71)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(152, 152, 255);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .left {
+            font-size: 1.9rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.2rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .thirdSection {
+            max-width: 88vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .thirdSection .soon {
+            PADDING: 132PX 804PX;
+            font-size: 50px;
+            color: #d7c70e;
+        }
+
+
+        .secondSection {
+            max-width: 88vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 82vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            height: 120px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Subham's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstSection">About</a></li>
+                    <li><a href="#thirdSection">Projects</a></li>
+                    <li><a href="#secondSection">Services</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="firstSection" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Subham</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <br><br>
+                <div>Hello!</div>
+                <p>
+                    I am a second-year student
+                </p>
+                <p>
+                    doing Computer Application at the <br><a href="https://www.theaims.ac.in/">AIMS Institute</a>
+                    Bangalore, India
+                </p>
+
+                <div class="buttons">
+                    <a target="_blank" href="RESUME.pdf">
+                        <button class="btn" href=>Download Resume</button>
+                    </a>
+                    <a href="https://github.com/subhamg6" target="_blank">
+                        <button class="btn">Visit Github</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section id="thirdSection" class="thirdSection">
+            <h1>Projects</h1>
+            <div class="soon">SOON</div>
+        </section>
+        <hr>
+        <section id="secondSection" class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer(2023-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita enim consequatur
+                        similique aliquam doloribus voluptates accusantium laudantium fugiat provident incidunt delectus
+                        consequuntur, totam itaque ratione!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html5.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2023-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita enim consequatur
+                        similique aliquam doloribus voluptates accusantium laudantium fugiat provident incidunt delectus
+                        consequuntur, totam itaque ratione!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css-logo.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer(2023-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita enim consequatur
+                        similique aliquam doloribus voluptates accusantium laudantium fugiat provident incidunt delectus
+                        consequuntur, totam itaque ratione!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">
+                        JavaSript Developer(2023-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita enim consequatur
+                        similique aliquam doloribus voluptates accusantium laudantium fugiat provident incidunt delectus
+                        consequuntur, totam itaque ratione!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="reactjs.png" alt="">
+                    <div class="vertical-title">
+                        Reactjs Developer(2023-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita enim consequatur
+                        similique aliquam doloribus voluptates accusantium laudantium fugiat provident incidunt delectus
+                        consequuntur, totam itaque ratione!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="nodejs.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer(2023-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita enim consequatur
+                        similique aliquam doloribus voluptates accusantium laudantium fugiat provident incidunt delectus
+                        consequuntur, totam itaque ratione!
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Subham's Developer Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="https://github.com/subhamg6" target="_blank">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="" target="_blank">Site</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="mailto:subham60027@gmail.com" target="_blank">Mail</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/subham-gupta-aa788224b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="https://instagram.com/_shubham._._.gupta_?igshid=OGQ5ZDc2ODk2ZA=="
+                        target="_blank">Instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="https://x.com/Subham_Gupta_06?t=NdVKYXZ5surPG0BQX6R3-A&s=09"
+                        target="_blank">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/profile.php?id=61550593960059&mibextid=2JQ9oc"
+                        target="_blank">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.subhamg06portfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Frontend Developer', 'Backend Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
